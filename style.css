@@ -1,0 +1,94 @@
+#body{
+    display: flex;
+    gap: 2%;
+}
+#words{
+    font-size: xx-large;
+}
+#man{
+    display: flex;
+}
+#p{
+    display: flex;
+}
+#lo{
+    border-radius: 24px;
+    width: 100px;  
+    height: 33px;
+}
+#joi{
+    height: 33px;
+    border-radius: 24px;
+    width: 100px; 
+
+}
+#hero{
+    font-size: larger;
+}
+#home{
+    display: flex;
+    gap: 10%;
+}
+#footer{
+    display: flex;
+    gap: 2%;
+}
+#monthly{
+    display: flex;
+    gap: 8%;
+} 
+#all{
+    display: flex;
+    gap: 2%;
+    border-radius: 23px;
+}
+#no{
+    border-radius: 24px;
+    width: 100px; 
+    color: white;
+    background-color: red;
+}
+#w{
+    border-radius: 24px;
+    width: 300px; 
+    height: 42px;
+
+}
+#now{
+    background-color: red;
+    border-radius: 24px;
+}
+body{
+    padding-left: 20px;
+    padding-right: 24px;
+
+}
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    body{
+    padding-left: 24px;
+    padding-right: 24%;
+    display: block;
+    }
+    #body{
+        display: block;
+        gap: 4%;
+    }
+    #man{
+        display: block;
+        width: 350px;
+    }
+    #img{
+        width: 23x;
+        object-fit: cover;
+    }
+    #all{
+        display: flex;
+        gap: 0%;
+        border-radius: 34px;
+    }
+    #footer{
+        display: block;
+        gap: 5%;
+        font-size: x-large;
+    }
+  }
